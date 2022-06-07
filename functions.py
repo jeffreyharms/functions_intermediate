@@ -97,3 +97,10 @@ def printInfo(element):
         print(element['instructors'][b])
 
 printInfo(dojo)
+
+
+def iterateDictionary2(key_name, some_list):
+    for x in range(0, len(some_list[key_name])):
+        print(some_list[key_name][x])
+        
+iterateDictionary2('locations', dojo)
